@@ -12,6 +12,11 @@
 <script type="text/javascript" src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 <script type="text/javascript" src="../dist/leaflet.zoomdisplay-src.js"></script>
 <script type="text/javascript">
+    LControlZoomDisplay.default(L, {
+        position: 'bottomleft',
+        prefix: 'Zoom : ',
+    });
+
     var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         osm = new L.TileLayer(osmUrl, {
             maxZoom: 18,
