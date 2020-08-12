@@ -1,13 +1,10 @@
 .leaflet-control-zoom-display {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid #333;
     display: block;
     text-align: center;
     text-decoration: none;
     color: black;
-    padding-top: 0.3em;
+    padding: 0.15rem 0.35rem;
     font: bold 12px/20px Tahoma, Verdana, sans-serif;
 }
