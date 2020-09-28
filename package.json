@@ -2,7 +2,7 @@
   "name": "leaflet-zoomdisplay",
   "version": "1.0.0",
   "description": "Leaflet.zoomdisplay is a plugin that displays the current zoom level of the map",
-  "main": "src/L.Control.ZoomDisplay.js",
+  "main": "dist/leaflet.zoomdisplay.js",
   "directories": {
     "example": "example"
   },
